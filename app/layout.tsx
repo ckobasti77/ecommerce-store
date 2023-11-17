@@ -18,6 +18,7 @@ export const metadata: Metadata = {
       {
         url: "/logo.png",
         href: "/logo.png",
+        sizes: "32"
       },
     ],
   },
