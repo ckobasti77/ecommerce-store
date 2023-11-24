@@ -15,12 +15,15 @@ const Navbar = async () => {
       <Container>
         <div className="relative px-4 sm:px-6 lg:px-8 flex h-16 items-center">
           <Link href="/" className="ml-4 flex lg:ml-0 gap-x-2">
-            <Image
+            {/* <Image
               src='/logo.png'
               alt="logo"
               width={75}
               height={37}
-            />
+            /> */}
+            <h1 className="text-xl font-bold">
+              STORE
+            </h1>
           </Link>
           <MainNav data={categories} />
           <NavbarActions />
